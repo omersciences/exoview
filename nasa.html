@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoview!</title>
+
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="nasa.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header class="navbar">
+        <nav>
+
+            <div class="nav-item">Tutorial</div>
+            <div class="nav-item">Settings</div>
+  
+          
+        </nav>
+    </header>
+
+    <!-- Main Content Area: Sidebar and Content -->
+    <main class="main-container">
+        <!-- Sidebar with Location Tab and Info -->
+        <aside class="sidebar">
+            <section class="location-tab">
+                <h2>Planets to Explore:</h2>
+                <ul>
+                    <li>Kepler 442b</li>
+                    <li>Kepler-186f</li>
+                    <li>Proxima Centauri-b</li>
+                    <li>Kepler-62f</li>
+                    <li>Kepler-22b</li>
+                </ul>
+            </section>
+
+            <div class="info-box">
+                <h2>Exo Information!</h2>
+                <div id="planet-info">
+                    <p>[Information]</p>
+                    <!-- Transparent points for different facts -->
+                    <div class="fact-point" id="fact1"></div>
+                    <div class="fact-point" id="fact2"></div>
+                    <div class="fact-point" id="fact3"></div>
+
+                    <link rel="stylesheet" href="nasa.css">
+
+                </div>
+            </div>
+
+            </div>
+
+            <div class="info-box" id="info-box hidden">
+                <h2 id="info-box-title">Planet Title!</h2>
+                    <p id="info-box-content">Planet details will go here.</p>
+                    <button id="close-info-box">Close</button>
+                    <button id="open-info-box">Open Info</button>
+                    <!-- New section for more planet details -->
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h2>Quiz Time</h2>
+                <a href="https://wordwall.net/tr/resource/79297605/exoplanet-quiz" target="_blank" id="info-link">Are you a qualified Exo-pro?</a>
+            </div>
+                </div>
+            </div>
+           
+            <script src="nasa.js"></script>
+
+            <div class="planet-simulation">
+                <div class="planet-point" id="point1"></div>
+                <div class="planet-point" id="point2"></div>
+                <div class="planet-point" id="point3"></div>
+            </div>
+
+        </aside>
+
+        <!-- Content Area with Image (Location Simulation) -->
+        <section class="content">
+            <img src="planet-landscape.jpg" alt="PLANET EXPLORATION" class="location-simulation">
+            <div class="directive-selection">
+                <!-- Red circles as interactive directive points -->
+                <div class="directive-item" style="top: 10%; left: 30%;"></div>
+                <div class="directive-item" style="top: 50%; left: 50%;"></div>
+                <div class="directive-item" style="top: 70%; left: 40%;"></div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+
+
+
+    
+
+
+
+
+  
+
+
+
